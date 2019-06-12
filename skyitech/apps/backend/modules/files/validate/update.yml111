@@ -1,0 +1,24 @@
+#methods:
+#  post:           [file_name]
+#
+#fillin:
+#  enabled:       on
+#
+#names:
+#  file_name:
+#    required:     Yes
+#    required_msg: Please select file to upload
+#    file:             true
+#    validators:       myFileValidator
+#
+#myFileValidator:
+#  class:              sfFileValidator
+#  param:
+#    mime_types:
+#      - 'image/jpeg'
+#      - 'image/gif'
+#      - 'image/png'
+#      - 'image/x-png'
+#    mime_types_error: Only PNG, GIF and JPEG images are allowed
+#    max_size:         10240
+#    max_size_error:   Max size is 10MB

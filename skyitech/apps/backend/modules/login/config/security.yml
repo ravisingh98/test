@@ -1,0 +1,9 @@
+indexSuccess:
+  is_secure: off
+
+captcha:
+  is_secure: off
+
+logout:
+  is_secure: off
+

@@ -1,0 +1,137 @@
+body{ margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size:12px; line-height:20px; background:#f5f5f5; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+{ margin: 0; padding: 0; }
+a img,:link img,:visited img { border: none; }
+a{ text-decoration: none; color:#006699; }
+a:hover { text-decoration: underline; color:#ff0000; }
+img{ vertical-align:middle;}
+
+input[type=text],input[type=password],textarea {padding:7px 4px; font:140%/1.5 "arial", sans-serif;}
+input[type=text]:focus,input[type=password]:focus,textarea:focus { box-shadow:0 0 5px #aaa; }
+input[type=submit],input[type=file],input[type=button],input[type=reset] {padding:5px; font-size:120%;}
+input[type=file]:hover { background:#c0dced;}
+select{padding:7px 4px;}
+
+hr{ border:1px solid; } 
+.absmiddle	{ vertical-align: middle; }
+.logo{ float:left;  line-height:30px; font-size:14px; padding:0 10px; font-weight:bold; color:#999; text-shadow: 2px 2px 0px #000; 
+background: #333;
+background: -moz-linear-gradient(top, #000 0%, #555 100%);
+background: -webkit-linear-gradient(top, #000 0%, #555 100%); }
+.mainDiv{ width: 97%; margin:10px auto 100px; border:1px solid #eee; padding:10px; background:#fff; }
+
+.navigation	{ margin:0 auto; display:block; position:relative; z-index:99; 
+background: #222;
+background: -moz-linear-gradient(top, #555 0%, #000 100%);
+background: -webkit-linear-gradient(top, #555 0%, #000 100%); }
+.mainMenuUL a{float:left; margin:0 3px; height:30px; line-height:30px; color:#bbb; font-weight:bold; padding:0 5px;}
+.mainMenuUL a.current,.mainMenuUL a:hover {color:#99cc00;}
+
+#searchLnk	{ float:right; margin-right:10px; position:relative; }
+#searchDiv{ display:none; color:#fff; position:absolute; width:230px; right:0; top:30px; padding:5px; border-radius:0 0 5px 5px; 
+background: #222;
+background: -moz-linear-gradient(top, #555 0%, #000 100%);
+background: -webkit-linear-gradient(top, #555 0%, #000 100%); }
+#searchDiv ul{ color:#000; }
+
+.otherLinks { position:relative; float:left; }
+.otherLinks ul {display:none; width:250px; position:absolute; top:30px; left:0; list-style:none; border-radius:0 0 5px 5px; 
+background: #222;
+background: -moz-linear-gradient(top, #555 0%, #000 100%);
+background: -webkit-linear-gradient(top, #555 0%, #000 100%); }
+.otherLinks a {float:inherit;}
+
+.online { position:relative; float:left; margin:0 10px; line-height:30px; color:#fc0; font-size:14px; font-weight:bold; }
+
+h1{ background:#F5F5F5; border-left:5px solid #555; padding:5px; font-size:150%; margin-bottom:5px; }
+.create{ padding-right:10px; margin-bottom:5px; text-align:right;}
+.create a{ font-size:17px; margin:0 10px; opacity:0.5; text-decoration:none; }
+.create a:hover{ opacity:1; }
+.action { text-align:right; }
+.action a{ margin:0 5px; opacity:0.5; text-decoration:none; }
+.action a:hover{ opacity:1; }
+
+table	{ width:100%; margin:auto; border:2px solid #ddd; margin:5px 0;}
+table th	{ background:#ADD1E7; padding:5px; text-shadow:0px 0px 5px #eee; background: -moz-linear-gradient(top, #C0DCED 0%, #ADD1E7 100%);}
+table tr	{ background:#f4f4f4; background: -moz-linear-gradient(top, #f9f9f9 0%, #f4f4f4 100%);}
+.list tr:hover	{ background:#DDE7B8; }
+table td	{ padding:5px; }
+table .odd	{ background:#F4F4F4; }
+table .even	{ background:#DDDDDD; }
+
+.welcome{ text-align:center; font-size:200%; margin:50px; }
+table.login	{ width:500px; margin:auto; }
+table.login th	{ text-align:left; padding:5px; background: #BDE1F7; background: -moz-linear-gradient(top, #BDE1F7 0%, #ADD1E7 100%);}
+table.login td	{ }
+
+.form_error,.red { color: red; }
+.bluebg { background:cyan; color: blue; }
+.stat0 {background:#ebc4bf; }
+.stat0:hover	{ background:#e39c93; }
+.stat2 {background:#fce1a0; }
+.stat2:hover	{ background:#ffcc66; }
+.type1 {background:#E7E0EF; }
+.type1:hover	{ background:#DFD1EF; }
+
+
+.pgn	{ text-align:center; font-size:14px; font-weight:bold; position:fixed; bottom:0;background:white; padding:10px 20px; min-width:500px; width:auto; left:calc(50% - 250px); border-radius:50px 50px 0 0;box-shadow:-0px -2px 5px #ccc;}
+.pgn form	{ display:inline; }
+.pgn a	{ color:#6597DB; }
+.pgn div { margin-top:3px; }
+.pgn span	{ font-weight:bold;  }
+.pgn span,.pgn a	{ background:#eee; border:1px solid #ddd; padding:2px 4px; margin:2px; border-radius:3px; }
+.pgn span,.pgn a:hover	{ background:#fc0; color:#555;}
+
+.F,.setting_P	{ background:#E7E0EF; }
+.F:hover,.setting_P:hover	{ background:#DFD1EF; }
+.D,.setting_G {background:#fce1a0; }
+.D:hover,.setting_G:hover	{ background:#ffcc66; }
+.N {background:#ddd; }
+.N:hover	{ background:#ccc; }
+.U,.setting_M {background:#D9EFC2; }
+.U:hover,.setting_M:hover	{ background:#BEDF99; }
+
+.M:hover { background:yellow }
+.fn{ font-weight:bold; }
+.tg{ color:#999; }
+.sng{ color:#d66; }
+#a2z_movies { position:relative; } 
+#moviesABC { display:none; position:absolute; right:0px; top:12px; width:310px; background:#3684AF; padding:5px; border:2px solid #B6D6E9; } 
+#moviesABC a { width:20px;color:#fff; margin:1px; } 
+#a2z_movies:hover #moviesABC { display:block; } 
+
+#charAtoZ{ font-size:140%; }
+#charAtoZ a{ margin:3px; }
+
+.activeDeactiveButton,.featureButton {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #555555;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    width:70px;
+    text-align:center;
+    display:inline-block;
+}
+.activeDeactiveButton.selected {
+    background: none repeat scroll 0 0 #4F9D00;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.featureButton.selected {
+    background: none repeat scroll 0 0 #0091c7;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.activeDeactiveButton input[type=checkbox],
+.featureButton input[type=checkbox]{ display:none; }
+
+.token-input-input-token input,
+.token-input-input-token input:focus { box-shadow:none; }
+
+.msg {padding:10px; padding-left:35px;}
+.msg.warning {background:url("../images/ico-warning.gif") 10px 50% no-repeat; border:2px solid #F2DD8C; background-color:#FFF5CC;}
+.msg.warning a {color:#df0000;} .msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {color:#303030;}
+.msg.info {background:url("../images/ico-info.gif") 10px 50% no-repeat; border:2px solid #B8E2FB; background-color:#E8F6FF;}
+.msg.done {background:url("../images/ico-done.gif") 10px 50% no-repeat; border:2px solid #BBDF8D; background-color:#EAF7D9;}
+.msg.error {background:url("../images/ico-delete.gif") 10px 50% no-repeat;border:2px solid #FFAEAE; background-color:#FEEBEB;}

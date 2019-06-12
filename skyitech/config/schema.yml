@@ -1,0 +1,76 @@
+propel:
+  admin:
+    id:
+    username: { type: varchar(50), required: true }
+    password: { type: varchar(50), required: true }
+    level:    { type: integer, size: 1, required: true }
+    is_superadmin: { type: varchar(1), required: true }
+
+  category:
+    id:
+    category_name: varchar(100)
+    title: { type: varchar(255) }
+    description: { type: longvarchar }
+    parents: { type: varchar(100), default: '|', index: true }
+    parentsarray: { type: longvarchar }
+    status: { type: varchar, size: 1, default: 'A' }
+    child: { type: varchar, size: 1, default: 'N' }
+    list_ord: { type: integer, size: 1, default: 0 }
+    ord: { type: integer, size: 4, default: 0 }
+    flag_new: { type: integer, size: 2, default: 0 }
+    flag_updated: { type: integer, size: 2, default: 0 }
+    flag_hot: { type: integer, size: 2, default: 0 }
+    files: { type: integer, size: 5, default: 0 }
+    url: { type: varchar, size: 255 }
+
+  files:
+    id:
+    file_name: { type: varchar(255), index: true, require: true }
+    category_id: { type: integer, foreignTable: category, foreignReference: id, onDelete: cascade, require: true, index: true, default: 0  }
+    description: { type: longvarchar }
+    singer: { type: varchar, size: 255 }
+    tags: { type: varchar, size: 255 }
+    size: { type: integer, size: 9, default: 0 }
+    today: { type: integer, size: 5, default: 0 }
+    download: { type: integer, size: 6, default: 0 }
+    extension: { type: varchar , size: 4 }
+    ord: { type: integer, size: 4, default: 0 }
+    status: { type: varchar, size: 1, default: 'A' }
+    url: { type: varchar, size: 255 }
+    created_at:
+
+  download_history:
+    id:
+    date: { type: varchar, size: 8, index: true }
+    file_id: { type: integer, foreignTable: files, foreignReference: id, onDelete: cascade  }
+    extension: { type: varchar, size: 4 }
+    hits: { type: integer, size: 5, default: 0 }
+    _uniques:
+      df: ['date', 'file_id']
+
+  artist:
+    id:
+    name: { type: varchar(255) }
+    status: { type: varchar, size: 1, default: 'A' }
+
+  setting:
+    id:
+    meta: { type: varchar , size: 40 }
+    description: { type: varchar , size: 100 }
+    value: { type: longvarchar }
+    device: { type: varchar, size: 1, default: 'P' }
+    updated_at:
+
+  updates:
+    id:
+    description: { type: longvarchar }
+    status: { type: varchar, size: 1, default: 'A' }
+    created_at:
+
+  log_history:
+    id:
+    date: { type: integer, size: 8, default: 0 }
+    host: { type: integer, size: 6, default: 0 }
+    hits: { type: integer, size: 6, default: 0 }
+    download: { type: integer, size: 8, default: 0 }
+    files: { type: varchar, size: 255, default: '|' }

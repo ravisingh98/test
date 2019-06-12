@@ -1,0 +1,5 @@
+<FilesMatch "\.*.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+ExpiresActive On
+ExpiresDefault "access plus 1 week"
+Header append Cache-Control "public"
+</FilesMatch>

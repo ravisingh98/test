@@ -1,0 +1,19 @@
+default:
+  is_secure: on
+  credentials: [[ level1, level2, level3 ]]
+
+create:
+  is_secure: on
+  credentials: [[ level1, level2, level3 ]]
+
+edit:
+  is_secure: on
+  credentials: [[ level1, level2, level3 ]]
+
+update:
+  is_secure: on
+  credentials: [[ level1, level2, level3 ]]
+
+delete:
+  is_secure: on
+  credentials: [[ level1, level2 ]]

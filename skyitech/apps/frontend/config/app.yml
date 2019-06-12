@@ -1,0 +1,27 @@
+frashmusic:
+  webpath:   http://frashmusic.sky
+  sitename: frashmusic.sky
+  smallname: frashmusic
+  filename2hide: (dev.in)
+  onlinetime: 600
+
+frashmusic:
+  webpath:  /
+  sitename:frashmusic.club
+  smallname: frashmusic
+  filename2hide: (frashmusic.club)
+  onlinetime: 600
+
+all:
+  sfImageTransformPlugin:
+   default_adapter: GD # GD or ImageMagick
+   default_image:
+     mime_type: image/png
+     filename: Untitled.png
+     width: 100
+     height: 100
+     color: '#FFFFFF'
+   font_dir: /usr/share/fonts/truetype/msttcorefonts
+   mime_type:
+     auto_detect: true
+     library: gd_mime_type #  gd_mime_type (GD), Fileinfo (PECL), MIME_Type (PEAR)

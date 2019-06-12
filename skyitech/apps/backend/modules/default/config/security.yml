@@ -1,0 +1,7 @@
+index:
+  is_secure: off
+
+default:
+  is_secure: on
+  credentials: [[ level1, level2, level3 ]]
+

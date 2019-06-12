@@ -1,0 +1,15 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:       frashmusic.club &raquo; Development By frashmusic.club
+    robots:       index, follow
+    language:     en
+
+  stylesheets:    []
+
+  javascripts:    []
+
+  has_layout:     on
+  layout:         layout

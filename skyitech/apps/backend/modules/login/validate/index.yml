@@ -1,0 +1,11 @@
+methods:
+  post:           [username, password]
+
+names:
+  username:
+    required:     Yes
+    required_msg: The username field cannot be left blank
+
+  password:
+    required:     Yes
+    required_msg: The password field cannot be left blank

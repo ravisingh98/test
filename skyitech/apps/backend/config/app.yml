@@ -1,0 +1,32 @@
+# default values
+dev:
+  webpath:   http://frashmusic.sky/mm-admin4589
+  upload_dir:   http://frashmusic.sky/siteuploads
+  frontsiteurl:   http://frashmusic.sky
+  webmaster: admin@frashmusic.club
+  filename2hide: -(dev.in)
+  sitename: frashmusic.club
+
+frashmusic:
+  webpath:   http://frashmusic.club/mm-admin4589
+  upload_dir:   http://frashmusic.club/siteuploads
+  webmaster: admin@frashmusic.club
+  frontsiteurl:   http://frashmusic.club
+  filename2hide: (frashmusic.club)
+  sitename: frashmusic.club
+
+all:
+  setorder: on
+  sfImageTransformPlugin:
+   default_adapter: GD # GD or ImageMagick
+   default_image:
+     mime_type: image/png
+     filename: Untitled.png
+     width: 100
+     height: 100
+     color: '#FFFFFF'
+   font_dir: /usr/share/fonts/truetype/msttcorefonts
+   mime_type:
+     auto_detect: true
+     library: gd_mime_type #  gd_mime_type (GD), Fileinfo (PECL), MIME_Type (PEAR)
+  

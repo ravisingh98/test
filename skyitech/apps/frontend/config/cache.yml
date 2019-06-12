@@ -1,0 +1,26 @@
+default:
+  enabled:     off
+  with_layout: false
+  lifetime:    1800
+
+## category list homepage
+_category:
+  enabled: on
+  contextual: true
+  lifetime:    600
+
+## main category list for all pages
+#_category2:
+#  enabled: on
+#  lifetime:    600
+#
+
+## latest update homepage
+_updates:
+  enabled: on
+  lifetime:    600
+
+# latest update pages 
+latestupdates:
+  enabled: on
+  lifetime:    1800

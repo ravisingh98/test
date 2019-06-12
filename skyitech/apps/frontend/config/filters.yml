@@ -1,0 +1,14 @@
+rendering: ~
+web_debug: ~
+security:  ~
+
+# generally, you will want to insert your own filters here
+#remember:                 # Filters need a unique name
+#  class: rememberFilter
+#  param:
+#    cookie_name: skyitech.funpro
+
+cache:     ~
+common:    ~
+flash:     ~
+execution: ~

@@ -1,0 +1,60 @@
+default_routing:
+  categoryList:
+    url:   /categorylist/:parent/:fname/:sort/:page.
+    param: { module: category, action: list, page: 1, sort: default, fname: music }
+  
+  categorySearch:
+    url:   /findalbum/:type/:find/:sort/:page.
+    param: { module: category, action: search, page: 1, sort: default, type: find }
+  
+  filesList:
+    url:   /filelist/:parent/:fname/:sort/:page.
+    param: { module: files, action: list, sort: new2old, fname: music, page: 1 }
+  
+  filesShow:
+    url:   /download/:id/:name.
+    param: { module: files, action: show }
+  
+  filesSingerList:
+    url:   /singer/:singer/:sort/:page.
+    param: { module: files, action: singer, sort: new2old, page: 1 }
+  
+  artistList:
+    url:   /singerlist/:page.
+    param: { module: artist, action: list, page: 1 }
+  
+  artistList2:
+    url:   /singerlist/:type/:find/:page.
+    param: { module: artist, action: list, page: 1 }
+  
+  lastAddedFiles:
+    url:   /newitems/:page.
+    param: { module: files, action: lastadded, page: 1 }
+  
+  featured:
+    url:   /featured/:page.
+    param: { module: files, action: featured, page: 1 }
+  
+  topFiles:
+    url:   /topdownload/:type.
+    param: { module: files, action: top }
+  
+  latestUpdates:
+    url:   /latest_updates/:page.
+    param: { module: info, action: latestupdates, page: 1 }
+  
+  homepage:
+    url:   /
+    param: { module: default, action: index }
+  
+  default_symfony:
+    url:   /skyitech/:action/*
+    param: { module: default }
+  
+  default_index:
+    url:   /:module
+    param: { action: index }
+  
+  default:
+    url:   /:module/:action/*
+  

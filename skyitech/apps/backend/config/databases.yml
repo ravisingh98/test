@@ -1,0 +1,32 @@
+#all:
+#  propel:
+#    class:      sfPropelDatabase
+#    param:
+#      phptype:  mysql
+#      database: %SF_DATA_DIR%/sandbox.db
+#
+dev:
+  propel:
+    class:                sfPropelDatabase
+    param:
+      phptype:            mysql     # Database vendor
+      hostspec:           localhost
+      database:           site_playmaza
+      username:           admin
+      password:           
+#      port:               80
+      encoding:           utf8      # Default charset for table creation
+      persistent:         false      # Use persistent connections
+
+bihardj:
+  propel:
+    class:                sfPropelDatabase
+    param:
+      phptype:            mysql     # Database vendor
+      hostspec:           localhost
+      database:           bihardji_wap
+      username:          bihardji_wap
+      password:           NTDKx&(D%SuW
+#      port:               80
+      encoding:           utf8      # Default charset for table creation
+      persistent:         false      # Use persistent connections

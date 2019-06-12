@@ -1,0 +1,1 @@
+[31-Oct-2014 18:19:00 UTC] PHP Fatal error:  Class 'sfBrowser' not found in /home/mirchilo/public_html/skyitech/lib/symfony/test/sfTestBrowser.class.php on line 22

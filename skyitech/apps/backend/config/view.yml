@@ -1,0 +1,21 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        default - Admin - &raquo; Powered By frashmusic.club
+    robots:       no-index, no-follow
+    language:     en
+
+  stylesheets:    [main]
+
+  javascripts:    [/js/jquery.min.js, /js/ckeditor/ckeditor.js]
+  has_layout:     on
+  layout:         layout
+
+dev:
+  metas:
+    title:        dev-1m.in - Admin - funpro.in &raquo; Powered By frashmusic.club
+frashmusic:
+  metas:
+    title:      frashmusic.club - Admin  &raquo; Powered By frashmusic.club

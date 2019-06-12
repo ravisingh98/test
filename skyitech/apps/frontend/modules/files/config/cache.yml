@@ -1,0 +1,23 @@
+# files list
+#list:
+#  enabled: on
+#  lifetime:    600
+#
+# big lifetime.. we will remove cache manually when admin uploads new file
+lastadded:
+  enabled: off
+  lifetime:    900
+
+# big lifetime.. we will remove cache manually when admin uploads new file
+top:
+  enabled: on
+  lifetime:    60
+
+# big lifetime.. we will remove cache manually when admin uploads new file
+#show:
+#  enabled: off
+#  lifetime:    3600
+#
+#singer:
+#  enabled: on
+#  lifetime:    3600
